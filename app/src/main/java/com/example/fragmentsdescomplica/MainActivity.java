@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements LugarListFragment.OnListSelected {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
